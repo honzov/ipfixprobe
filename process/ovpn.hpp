@@ -68,6 +68,7 @@ UR_FIELDS (
 /**
  * \brief Flow record extension header for storing parsed VPNDETECTOR packets.
  */
+// HONZADEBUG OVPN example
 struct RecordExtOVPN : RecordExt
 {
    static int REGISTERED_ID;

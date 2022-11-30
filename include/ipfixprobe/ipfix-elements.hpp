@@ -219,6 +219,7 @@ namespace ipxp {
 #define DNSSD_RESPONSES(F)            F(8057,    827,  -1,   nullptr)
 
 #define OVPN_CONF_LEVEL(F)            F(8057,    828,   1,   nullptr)
+#define VPN_AUTOMATON_CONF_LEVEL(F)   F(8057,    828,   1,   nullptr)
 
 #define NB_NAME(F)                    F(8057,    831,  -1,   nullptr)
 #define NB_SUFFIX(F)                  F(8057,    832,   1,   nullptr)
@@ -422,6 +423,9 @@ namespace ipxp {
 
 #define IPFIX_OVPN_TEMPLATE(F) \
    F(OVPN_CONF_LEVEL)
+
+#define IPFIX_VPN_AUTOMATON_TEMPLATE(F) \
+   F(VPN_AUTOMATON_CONF_LEVEL)
 
 #define IPFIX_SSDP_TEMPLATE(F) \
    F(SSDP_LOCATION_PORT) \
